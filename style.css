@@ -51,4 +51,21 @@ button{
 }
 button:hover{
     background-color: #45464a;
+} 
+.image{
+   display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+   gap: 10px;
+
+}
+.image div{               
+    height: 200px;
+    width: 200px;
+    background: #292c31;
+    border: 3px solid #36383d;
+   
+
+}
+.image div img{
+    width: 100%;
 }
